@@ -1,0 +1,966 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WINTPL_RibbonSearch
+ major_version : 28
+ minor_version : 0
+ type : 18
+ description : ""
+ subtype : 0
+window :
+ name : WINTPL_RibbonSearch
+ identifier : 0x286e681e0c212b71
+ internal_properties : CAAAAAgAAADDja+6xYQGwL5opfARKmoQ7GHzfgrashlebCxETB5rdpTOu3QBju+LMdZzoj9Q+tJS2XjYA1lDAbHJwSf6DYVxCNSR+F5eS7r7+0RgsaXhSBT5UwqlN9O3fSZbRnwu3QrKD0y1jCS0P8KEFJVWWjrSL+6QjrNcLQV+HkA1uP6fYSEH5RA6xwpi/KHzvB3ufDhyd82Hma8H5L0ePHP7utwZQAeouttFXpF7GaPUzIYqvMiLZ4P/oEC7oxhTZrY7c9oiKFIFU1XB6Rj0OKl2NMQC31Co1xvVhxATLKr5FmntO9NxLupU1u4xgHLO8bN4PIbukees4yTnGBO6cLsJtEI7DZkzrYiI24YeuQUYeCEDcl6+oCbVbXooLgwVeQL9TAffgiaWyHK4hLiA5XR8IDCT150JXMrmf/KK/5rdu4LsjBjMkgPfLHF5F+S385mJZwOHBQ2D+F3+lgVVyeutO1brwQbV3QyWSl87JWsB10xiS7Hek66PaSLmkYYVvoRUr5XjjCB9Tdc8qorHmLe7S4fs2MkYmsIYVoMSk3wkwgoEJ0AXy4b4ap3FyWwWmdJeSuGvlbc+ecvslhjKfbHNNwb2nf9868C7gqCypZZbvcUPimrzN6pLrzI2Wsew4RSiNob06n4Ducdtt2mQGCfBqW0HtfGy7VP2qBu7Jv74nFCGLEbbaif8llcDeS1QKow+S1bZtJqzxx+aBCG/v+Xx4uWqENWQJRQ1zhqLhsh8fGd75XPZB1wgo+RxQ8TJGFyoxVUWaKZp0GHQ4A8GP2Q=
+ properties :
+  width : 786
+  height : 594
+  widthClient : 784
+  heightClient : 562
+ controls :
+  -
+    name : IMG_BackgroundSearch
+    identifier : 0x286e681e0c232b71
+    internal_properties : CAAAAAgAAACeKP722kAkZ8ToHZmYZMTPBaswooV3FxLTa29hwgErGYV4cC2YD0ZSptLUUBDazREPvr149RCR5L6EhZuflqz2g508cs3r0uTZklaFCSOhzcoJPCRcN3+u2OqYNiiEn44Q90AVriWm3nfWxLUl7Kg8s5+iD0R0tGAh15I/H9bzBI6jkaSXmceT4rmzCfHBXzuDIrXxfs4psg9E1lPHAkXpBw0UtF08Y6M3J0Mu4SAWDfyJ3L4OsylUZrWW8cvFnKW7WXqhqQzUf/aXTokDi1nP7UNfuXyPYbp+ADQGVN/AykoK6NW+sRq4rfhkPmKWMAdUG9fX2Uarp+ugHvFkTxrXMuvyprx2evX+8+tfLt9tWgJ86flZs/BdapKhSh3ssVbYzMrEdiS738G8g483Z9gjVvN7lxonM5pSoAwsDjKYSyCPGklKVtKrJ9YDT6XxvU40nZ3r0+k0MrGCITEA30kmh72wNoOxdiqdmi4uGm4vr6jiJuGIVAutB3+O0R8FN3PKIA3WfatFMsrNj2lSC9WQQGj+h7cvpEhdGXp9j7MlweholjmJbxaOje/hIxTGAVwJ7Y1SW2/JcXD++tlJNdBn3u5OsKKEcfUBYjBu6IbqJLnwAN4Q/9b52g+owCsZgoW7+eJmXWN6oFf7aiVBBX5RALR84at0F8FpsdnPs3FO0jaKjlF6OpSYgScjkZXk7Elw6UU5ZvvJzsx2lvEV5CZVVsPSD4v5qT7tZEEFkjNFFNh1EHt4EVh02uFb54Wh73eEhzqFtxOYoMzlc7vwpRU/x0bfr4Ym1nzsAY4ZM1FMKmcnh/c92Gs3QGKHXw1pIgLJiGprqaE9bGgGB3CK1SDc4SJs4BxAhlUb3ZMy0Af9ngL+uCuQS6ndKQtNiBHrRQE9Cew+SiTT8k0ViOmM4ayt+/HwVAkV4i481A==
+    properties :
+     y : 110
+     width : 785
+     height : 105
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACmoVLMw6IVaNN+EzbCZ6RfCxh5pVzFPCZhG88znScG1z/Y/PkdJeeP3irLcbXCN5RHeNd369Fx6IvEJqGLFE9HzBcOG+6ib4SBPfY0gUSlaVKJGNF5IaHvg1Ejosjz6t2GLW9jk83MVZZ/lw==
+        code : |1+
+         // Repositions on the default plane
+         MySelf..Plane = 0
+        type : 14
+  -
+    name : LOOP_ResultSearch
+    identifier : 0x286e681e0c242b71
+    internal_properties : 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
+    properties :
+     x : 6
+     y : 137
+     width : 772
+     height : 72
+    controls :
+     -
+       name : STC_ControlAccessPath
+       identifier : 0x286e681e0c282b71
+       internal_properties : CAAAAAgAAABcCUDUmzEPgxrr78N5TG/AeW2XSoiF58dtJJYwV0WLLsDQOWg2ZE5rM8Ylv/FVmrzoqktGFJ4A2SFJU7itzz6YCpLCNKSak2DM6Uhu8N+4/bQs7rnAugYc+6GtgUW1BU4MuE8rDmYeY5odmIwptyVffQwZh7ehFcjZCuBllVS4m2Ft5z6V4EK4zTLWL0DasPA+w9J+l7GwmYzgUzMeNsA11lKsZqFHmvWehNSrPOVN/xwlDbbv7TYGen6yYmvJTperC9etULGKGcAdbAWbzwOvpr4RejF6UrvKgQ1sHwcTAHsljPsLsNoKWG4CaAqJz3PIsvnneLzxcpy2GKcus0UX03ouommBEzpulsFzQa/o2nq6BzwvbSeGzD2zXnYSz92/BDsJpEyrr3JX5az4QB6nfiJ+5w8CkiTachU28pwnOvGmd9AByBejhwWEkCfylboav1YxUX9LY1231mzSIHTYHoBH/D9v/X8jKOhN7i61jE0AbKCYh/37G91Mo59fRoXmWiPuWnE//tQ=
+       properties :
+        x : 6
+        y : 49
+        width : 743
+        height : 20
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_ControlTooltip
+       identifier : 0x286e681e0c292b71
+       internal_properties : CAAAAAgAAAD7zRH/pv6VzQ/YBIHtIZwaLZHUjUqf4z8KJKL1WC1lWAK7p9AatDPiulKVANG9P2ZL0CBWIMMFQXa+sRMNaBCJHDtVUPjM9JbzjKQSpo1wZf5DUZo2LxR2OtpNx9oyW/8o8dCmjRc0PSDTv4XOaiyRsBRbpwERGTgPxx+PS8ieepUV82KkRA15RsdRvLX65k/0QuEsIParNjuurMeTQzyRw0PUz/MQhfSP+AxKGQk+Ub5FM1jqnsapW8iboEozrSVBu1+B0coMwj/ECPVmHZctSc4VXt0MjlEc9+bgNp3ciI7NYoEv3EVPgdvs1LWKnBHUaPkvGAJr/dpibNRbaWhAuHJ+R/GSAiHEqyBbk/LQnUJkwor6FUiXzXLpIl8x8LSgncyeZi6Ywv8nR/k/HBjmY8GZmvK5y4slNjG6XASrzbONafR6gG9lmbpfojdSmJuqv2eALL/u4+nUYwJQ1CgZkq/+sxL7K429j9YrKddQpJnQuIo4PsUYAVbp3gY7mT9FT+x/w7sqAYWhMoVKkdKu3AYI7gIuNGxz6uxvpzeP+Xw8J+RKH7ktCZyu1Xa0hgWvcOxvriZH000Naa785LFM6IGXEwFEtHYzcOMHuUqPfOKT1gYxmZC32oITkunFGWqQ1y7Re0hsOW5z4OhrCibWa9tGejQ3Vml5vIac1duF5o63iSkSetAHtYwuYwnv/A+zbKxAMQ3G0bgwyQ4eVCq/tIH8M/qTG5553OdejJbdA/+6QWA62R1vh4gB0vB+PjqAZQ/WLaKtYjMesLZk4yzTBcIOU02pBpTqw2Oe7vJ61LZ5FbF9+/hVdVYnvA==
+       properties :
+        x : 6
+        y : 29
+        width : 743
+        height : 14
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_ControlCaption
+       identifier : 0x286e681e0c2a2b71
+       internal_properties : CAAAAAgAAAA2R2mSlFUV+1OxnrFxp04v2E6uLX7oT/ief4DA87xQNObxQ1cy3JBfEz8fHGjyY7LoYlApATSmPgu65F1+526Ipc//U8hUN7dI7Uz7SF8M34kSWfE+EVfed8lk9+QN2XPqTYuYBIpwLM2S7LZUevO3MbUyJG2vXJYgW5Fy4rga9ilw+UGr4DUbZb9l/X44IPVNnVp0qrvrKBBBGjz6b4wPz4QFXdp53yPJ9ph8rvkv06uFOaWNP7G7ebbmwVbwihj+DC/PkfNap/T+t6ly1X18gPaMQ67UBd9lAhrz9YOO88MK+MwHGLvtswg25nnCkaV9obng9wXlXGXtI+duc6SbXgbBupFAs9SXpEkiSDcaX4b5eM3G/AOMOSp/ViweXt0lRBCpURGYe9XeMmmi2bTh5RK2wgOa3vyZdWsM46xgCIRx1eRRYjEsJCWtp/esOVu0tmJ30r3Ag2pHFMdXKPXa9JpQFyOxtGw5l7zCOy4VIytvpWMMJ1Woytjr/PwQFp1bWcH9YGaCgxNZa8II4fg8uK1bFXyzIJVXQs4Cj+6fvSyetVatidPKoh8QQe5veJ99qRGGsjYMJwjbL5ZnqBqphQ9JnZ6AbAXUT5KM78Vpk75M22g99qKbU6mVUrL5mBBI1cS5YY618F+tub2UCSA0I66ixYQjimx+j4ztKmr6bSiuOGNXxoSzTNC5JluimJSjkuq/xFbwy1REhlgpY4RxIWZDu0dJAU6b72yIdC6YqcYrm4KZTCKdSHnu1KOv2Oer7yuI1F97FPgXLw==
+       properties :
+        x : 6
+        y : 6
+        width : 743
+        height : 17
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    columns :
+     -
+       name : ATT_ControlCaption
+       identifier : 0x286e681e0c252b71
+       internal_properties : CAAAAAgAAABEh+i11AJkl5ebC3Qe4CbuLZdFmrwEtvLaeoI1og6aJGHSiwllf94DU1W7MlGd8RdfenqLRoGXbdR4jMJYVJQJjAAU5kZMR9Z3kv+nZYN6rBcUYNt+RMECoi9Cb/f1NfP3bFGvw8MKUAlcYzJApta8fRPhQ7Y3e2S71P2sGHvCHi8mNTI=
+       type : 3
+       content :
+        identifier : 0x2557a6c8029b0b99
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_ControlTooltip
+       identifier : 0x286e681e0c262b71
+       internal_properties : CAAAAAgAAADOHZJHZvwOabCb/StvF9ZKBX+hMqS8Egoy4qodFpb+oKkSdxEd9xozwwUzKk11VaNHymazhtELhaQIfIokrKjN4NgWtJA6JSxpiOW9R9lwphnGzpHw+oeQbA1YFVGDc03RZqf9fZnIjutyicgiBOS+9/3XAXD5PvqcybzKfuVYsEEwz6g=
+       type : 3
+       content :
+        identifier : 0x2557a6c8029d0b99
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_ControlAccessPath
+       identifier : 0x286e681e0c272b71
+       internal_properties : CAAAAAgAAADG7qQm/vBSmFJhhWdeLYOFXQG9f6kPvmz9G5ijKAC+6ieTgjpaV1eO1ubxxUQNC2uHuD3Ktg0mvx7gcMJgsISpsT+mHUEVNb1n/CMqZfmAGxj12hI7K4/BanlqVjcjZyz4hbe8QCJC6xOQ2XcyhvrH1iQ1MitNq7zU0/BjAdnST6uUScIWiI+O
+       type : 3
+       content :
+        identifier : 0x2557a6c8029f0b99
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACmoVLMw6IVaNN+EzbCZ6RfCxh5pVzFPCZhG88znScG1z/Y/PkdJeeP3irLcbXCN5RHeNd369Fx6IvEJqGLFE9HzBcOG+6ib4SBPfY0gUSlaVKJGNF5IaHvg1Ejosjz6t2GLW9jk83MVZZ/lw==
+        code : |1+
+         // Repositions on the default plane
+         MySelf..Plane = 0
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         // Retrieves the associated control
+         stAControl is STRibbonElement = garrRibbonElementsSearch[LOOP_ResultSearch]
+         
+         // Positions the highlighting elements
+         _RibbonSearch_HighlightControl(stAControl)
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+      -
+        code : |1-
+         
+         // Retrieves the associated control
+         stAControl is STRibbonElement = garrRibbonElementsSearch[LOOP_ResultSearch]
+         
+         // Hides the search area
+         RibbonSearch_Display()
+         
+         // Runs the click on the control (if it is a button)
+         IF {stAControl.sFullControlName, indControl}..Type = typButton THEN ExecuteProcess(stAControl.sFullControlName, trtClick)
+        type : 66051
+  -
+    name : EDT_FindRibbonCommand
+    identifier : 0x286e681e0c2b2b71
+    internal_properties : CAAAAAgAAABQlA8fsCZplWKkquvdjZksVREdQOzSNiMfEJzrTiUkTiOm+q5SklQL7+1Ds+SsN3IunHxgPzWAPtIgciHVQQ8J7EADFmePBfhuvaML0Jn9DMR6ywnoZ/ajk+Laa18OogTekcNzNeLyY9YwrDGKgeIhqofE/imeEoF3A0HAU1w5eClR7E626txW95+5hBwSNnVr2XHhxfpR+mZo+s3GxMY20xaA7cLSyGz57zZ8ElxLxGYwB/WiI8C8ElYoeQnGjOwHEQvWuSRNBBGUajTaw36N7h6WLtrX18WGBClOAoJkK/otZYq1VNCpvqJ8gGc1gvSzlOhJKZRQhBBfBDGIFvvyIzANo0M+opagnNHnL4jHitosFf+ldpism6VrWbKH2r9Pv5+m5JYl6IU+WcC3vlBTwN6clJ6307aQ3WIasiiXu3wD4nDJiwSFzmPhaerVDiS6PP+/Z9EucQCIVf1NW4ka3rQQdNHIcpheCLLjb7zaUIfX9qaS/XSpl4r3GKHMD1sIFfZdps3i1gBKx8CvRN8+/x+sn/Oji//j1ekNr4Z44pYtE0p+pcUtu/Rw+2JQEXas6PQS1irVTc1FCgzceG/NXB1UvkLd7ogLiKrk7hmFSr4muhm7tqgiicEoUOcBWw6RgQy/nIoLB+Lwz21YchtIjmsP844hDuWOCzg02muC226J85pj9hNi1NYANEeZ8h4oP4f6NERne2wyFqsF7BYU4i9xP4ZUDipLEjQl3aD8pDu+MjpGvV2KdfaUTlV9hMfdD+paPJjeobf2a1IkJTD2kAxsAwFtovSF5nWBXyIZqefq8regL3ncuGlSCNkFe9RQupx+qLAP69r9DDWDbdFjS3QLhpBa1laK2cgoJ5kqbj58Xoh3Pvqk8nC7LT6cGq/ElbGJJUWmUH3nXihTlYEkxl4cGEPxGH2tvSLcORx4njuyuv8NqFuyFQAAwOIOcWPzMhep64FuWyLJgEKAb6pyCGbqtX9/os9lijdd50Z51gMPPr+jbgxBiBfNgUfA6rpOf++mZdl8G7QHNvcwzC4Pa+6vHcxlw8nzWcOEeW0+k5kz2FLaL/8EKwgxhjtX9SiKJa3nPmRaQt281mTxpqMhhMLm4TvoN+vBv68Etvsjursdie+8/IawpU5y1U9t14FGzeWYVPIvwi7l7canu3RelNYwpe/VGlke9wBBvssWzzwpDOzV0CwLmCFmBwgj2IvTx4XnPrTdyDWQljA7uJFMplpl6XsqwdiUQEJOO1V9oOMAkZAIvP0q8nsWAVKvy9qdUSvvIpCUq1bifyny/yqVNpHbamHWfRpbONHlHAG5c4Q5vF7iasnXtgi70wCl+Lvlt23LqnMQqYZyXc7bOKvMRiOcM/MGZEQ2wBnLKlzMPoszBspWtg3WPoRWqrMwB+UOhMjwJ/A7ZNmiJHT1QqDlcZH6nB07TikJssE9wvUmNYhgi7nO6D8=
+    properties :
+     x : 6
+     y : 112
+     width : 744
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACmoVLMw6IVaNN+EzbCZ6RfCxh5pVzFPCZhG88znScG1z/Y/PkdJeeP3irLcbXCN5RHeNd369Fx6IvEJqGLFE9HzBcOG+6ib4SBPfY0gUSlaVKJGNF5IaHvg1Ejosjz6t2GLW9jk83MVZZ/lw==
+        code : |1+
+         // Repositions on the default plane
+         MySelf..Plane = 0
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         // Stops the current search procedure
+         EndAutomatedProcedure(_RibbonSearch_DisplayResult)
+         
+         // Restarts the search procedure
+         _RibbonSearch_DisplayResult()
+        type : 17
+  -
+    name : BTN_CloseRibbonSearch
+    identifier : 0x286e681e0c2c2b71
+    internal_properties : CAAAAAgAAACYQkOLga2kRHQNd5lj07uAvMDKRqSLJMlJtqyyl97apb89oxMicqkXTnmXYsrdZtXCv80/ChxMnnQpHVCKnxt8sRXOKBeOTj2sFzcs6j9o2c12tcmfz1zC5ie4qz7kKEqvqxkTBcWcehDkEnSUYJDFl6UDXLaLvCX9POUFCobyRzDGs5h8u0jcyLdLj6NnDU3vErXbohyJwclkIgFuqdcdGzs187N4FtaN3/5b0lbKbKMn0XJwRTg6rLpKh2qfMPsIv/UBr3rM7nWYBTuKIh0vMrqxwse3FFnWZyR5CN/09RiVwI4zjsVs0GCBi778M8PXlgLW9GIh88JQrXOJX+HibAuKBmzKn/KBNn/bvK+hLbYH/hf7ylTt+dd5XUts+uy4N7hc9y1wmOd+vxMXSpfT0nVkWjIhQSlX1a3bSEB/MX9u0ylJBv5tGBpvB1YlVVZIpFrG1R9xlHmN74YjWaLrV0791e0KjRxJbJqmlp4xyR/ML9FijvA8EyEu7SZbbUoJKT9F3a72J7VrKBTYcdyCw1PpOdWFnM/BgdfDLvXdm28DNkBqsMmvf9FqjyeVdXuUNx/i28e5VgCsVeRWhBpe5z33rALKNArZLRzMmHTHfl+p5Dzr3TiwOELmng3IIWfBXKXsizDgBs2n8/y+QmgEW2Zk6OCX+3UWGJ5UJNwuJBCCsMzLXRNfV7dXreV9DRa+5NBnHK/5vzrSTLgggZdNJ8C21lepH7yLtwSYAN7uqARAKiUrV8nSiB3Vy3GjA/0W8Ev7KZJc29dx9GV8HVAD/aspQJfGzBzpd4HFGklsGioKKWMT8KLGdCsexsPVyQGhSAbXh2YjNSvI1gpvn7tmwr/xRorOOcdR2ISd3a+Gxa1p
+    properties :
+     x : 756
+     y : 112
+     width : 22
+     height : 22
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACmoVLMw6IVaNN+EzbCZ6RfCxh5pVzFPCZhG88znScG1z/Y/PkdJeeP3irLcbXCN5RHeNd369Fx6IvEJqGLFE9HzBcOG+6ib4SBPfY0gUSlaVKJGNF5IaHvg1Ejosjz6t2GLW9jk83MVZZ/lw==
+        code : |1-
+         // Repositions on the default plane
+         MySelf..Plane = 0
+        type : 14
+      -
+        code : |1+
+         // Hides the search
+         RibbonSearch_Display(False)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_ImageFinalPane
+    identifier : 0x286e681e0c2d2b71
+    internal_properties : CAAAAAgAAAD7zw6e3zsK4b7KJQuBHeAuyn+HlqTTJTtzpVxmphr1NTHGCpon8zqzzv0YB98RIfx6u4TBCPbkjZ81o0NF/QRcd8r3WBqrI8jV2cD6T+2n78AWZKHOiw1dAvUGIiXz10uYV8pl7zj9+Vi44m0QOLNM0bz3NCICL9tU74DJlarXOLxp6GKOFvKvaGgTrWjtnedwiXcPvx06akrdhip0/J72xZRSlVQPW2Fvt/Zy8Ps+u6FVgeZqOLR4vod8dSjrKHD0AdGR7eWJH7d9eByTdwDsidxS9fWbAfGf8WAoASnWSJa3Olbo/0huVwbcBwyoNfknvTk9C1eP+ejUYM18CMAndFJ2QP/4VyfFwPSdllX7xeZmW4DMTMQgijm8OD1NX+yqSZmRUFOBYvIYAQme2cJqpfzzMTihvyB0X8cgOcFmKpVyQ/xYwA4kDOmP7BtQ+R1ksPFzq5aMwHMiP2fN8rgsD4KJIYkYQDz54AS4glImWX9wZZWT/y+a+2d2B2ssS08/pE41oN5UuoM821+nZGLtO79yLqhvE9YtOje7vj/ioacaFYtie/4lO7/6hPw8N8q1hwdOIvEhyUbHldfLGnC3Eaci8GRPDQZzxEIotc/+eWFXDr/s5xTeC0CbePvxBXhbTYxrBsn7/30b7OudIgWhqIZqcYZQVM4K39jfLJwdmxzRVTpPoAt1oZsKJX9zW7AZ1mJ1ueHlUcrV+KmQRDfZzhE3/nnnpho1gpxF4r1reJxLczpu/YUyh5a/fCZq5YxQTOxoKsOFkN/0eSDutR8RTFiat/Grxxbbl7UMwl0FD7Dg38dpsw/6IGUwi2qPdQJ9ds6slq7njtNboQVgrC3RQoMJmJ+p7vUYFmhsP8S3j6DFc2ra
+    properties :
+     x : 837
+     y : 56
+     width : 103
+     height : 20
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+  -
+    name : IMG_PaneImage
+    identifier : 0x286e681e0c2e2b71
+    internal_properties : CAAAAAgAAABxXZiM9SEA57wQW33n/0ZcYN1h/ALJQ5nRQ/rwdCybC59cjDA9GZDZ5Ft+OaUjV1JYWTbvtqzKu4VDkX1z7wpSdciBRiCBQSazh95UPZ/1XV6s7t90IetzIFucB0rOiualDHGaPC8G0sVX286V23qTItF+jaP9tFzJXhVaAt0CQ+2SjxvTZTNgQVNsysn0vPZdtiaczKy7I4dkU1epV9khLrk1Dh3C4NrsRqsvTTbN6t6qvGuTY2E5/2pRIglC/7clShC2drgu1AiAySkIasczti0ZAu5e9pqEuSGdViZvuYeSxXk5xgujGDvfDB21XlrIICRsRFayUpUdN+aBKanIXYkxu8jvImBScUOmW04sZk8NZss96y8tI3ZXeS5yPAHfQKCsJYZYH3s9IKYv1j8voodypK4TE7bKf/fWuz3SRmMK3UDmJqZqsnH2e4TlGtJbrQbKLHdrE579fiaOf3XNTsFw9uqzZeesY8tpT7lxovZvHEqkgjytDgptKFB7Osya/8mGtc01oboTJgwQLyHiDoK1F3X+lEWUcYLo78KZhqqluGSXYlf4xjp5PbF7di84+rIPr2CCpG2OAs+d7uTZIzcKqM4n1WCRUtAEa182pz8zqtf2/5x42U7R2B1F6UL14bj7aIm7Obu5bsuvVgmDmnL+/eScqKQUCW4jYlQduRrRderJKKOPT/ngBWG3p5ILukYFG2HlUwgzegkyyKtDSIm/Ygcz2jivHJ5x2PVzBgpDO6LYVc38XbxV5khIhzL26nLSvHE3wg2il8JIS4H3UmaoufOpuQjJhaMe3DMvNVYOjamLUaEMNksW7ZR1D5iTDFQWOMz5oCHpP6fCSo+3qGlnOvkXUFe+TB62QcKxhbbTAdxU
+    properties :
+     x : 837
+     y : 30
+     width : 103
+     height : 20
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+  -
+    name : IMG_GradientRibbonSearch
+    identifier : 0x286e681e0c2f2b71
+    internal_properties : CAAAAAgAAABhTYgcZbHw90wAa033T7ZsEE1RzHIZc+mhcwrARDyLG49M/ACtqQBpdMvOyXWzxyKIiea/Zvz6C1Vz4Y2DP/ripXgxFlBR8faDN24kjS9lLQ5cHu+k8RtDMAusFplfu/eUP5pBW7DhGdzAnjmsLCcgveTvUB56S8MIH1ytmabTPDDh8PZCfi53hBgf+ZShuWssUcf7u11uqq7dslawsBLy0SyiGfg3BxkzpwqmFO/i1001uWreuDjgck84WVTnJEw4YVF9ed2tj4MlLAg362wYLTSCmfmr9QFjmTRkTS0ybNKHIrq8Twwu23Ygg9A84Z0bfXlBX3+reWzMxLFQZKRb+NoG5MtIw0dxUCABOmEHidIWA2wgfCigdhlwhNlhw3DukfGFPDOVyjYA3T1qbXb2WQyLVcwRs0jYfyP8xS3Cxgly2yhEYNI0sAGBEn0Sd5uyDvfJfeDimtHwEX0nrAb6ffBnz8Pajo5HDibW/KxE962mi5uVUQ38GcXotSXWITVlwkTbIpj65LlSJQ0R7qDjMS0o5PoxQfADoPF5eAmQf6WY63HE/WyP6V3cEk6elchTHa3EpCvXe3SFt019TL6FX3U49hY543DhAiSO36mkN19VDF02eaJoic4dFkVrg+YZg5JhwHMhodMBFuGnTBsnPhwozxCqKjigdSLtHi47OYrHi9DhigFfB5G08wk9USbvrAgbS/PzS/BrYmdSdsX3jN99JGux7NzDkJ6THGfBRsqB6XAIZ9uMLcxlljh414KmGiKi7AHHUp0yJ3I4e9FHApZYCaP5CdiZ1XNODOP/BYY+vfk74TGchhtmXQTlnygD/EQmKNwJsDH5z9cy+l+HmFlXymnnIKfOXC6mcbJBFSZD8exE
+    properties :
+     x : 894
+     y : 9
+     width : 15
+     height : 15
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         // Draws a gradient from yellow to red to highlight a search result
+         dStartDrawing(MySelf)
+         dRectangleGradient(0, 0, MySelf..Width, MySelf..Height, LightYellow, LightRed)
+        type : 14
+  -
+    name : SHA_Highlight_Border
+    identifier : 0x286e681e0c302b71
+    internal_properties : CAAAAAgAAAATeM/XAci3/WuE36LHkEHdrIa4H0NYhWRedxSGxusSn1fN9eI7mYeAgMChIcSDa1dwT+jDr0JTqHsyDezKyq5rW5nf8C3me05LnxqhpCpJVtgJ+J/cG0RI0NzlF7TlIlXt76c0zIQnzoiUn/mrWKcFaXDh3vCwJu4bvchhY60ZWPwj2P2uER5uDBkYq8ac6eUAd3TjWNH5fOLwZQ7BW4I6x7VEezlFk//w8vDdHIe3xH2qoCHggYOPdJgPcFSsFAmnoWvnSfl/FiUneG1t4waGSHQAsfZ4/V7jv3W/bJga77hDERmzFdQhKw==
+    properties :
+     x : 864
+     y : 2
+     width : 20
+     height : 20
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACmoVLMw6IVaNN+EzbCZ6RfCxh5pVzFPCZhG88znScG1z/Y/PkdJeeP3irLcbXCN5RHeNd369Fx6IvEJqGLFE9HzBcOG+6ib4SBPfY0gUSlaVKJGNF5IaHvg1Ejosjz6t2GLW9jk83MVZZ/lw==
+        code : |1+
+         // Repositions on the default plane
+         MySelf..Plane = 0
+        type : 14
+  -
+    name : IMG_Highlight_Background
+    identifier : 0x286e681e0c312b71
+    internal_properties : CAAAAAgAAAARWHWUzMd3x+nviadl6rKa3xDUpr32HeQ9qpJfazTjxQo7Qa6Tk4Z0l0II6Fd/lRaxksnisklKo/I7MbOJtnfj7HKdmes76bKngHu3OpeHIJBNDzFgcke7uEjPuPFQ/5cJs6z2YvyivyjlfYY/PibCwGLicdITQxwv3jHm94kTS38GV/yI/FUQaRk4fcZAywguJgGB2+bZqX5zTUVjJaCj1gi2DEk5d0+5XmhDUbHdFbaZ5Ysr8arz954cKkd2geZH3CFD6A1WUPyoBW/ikHEjGv+eoi9XQXp3OcGHNySBegTiKMUxpwxZQkxI4pTVXYhWyPZyRA9FmZxhjHgWBHHR2IJDWXEnvrRM3mCtekGu4EGUVgZdg5HVkcywi0NK6+pbbrKKkTyXn9x1YAPSOzj1YzsfXoyFh08UVFPH1WfUn42hYKjAGfyyBX2RHEr2/E/Z9Bffh3KYLZBzt+Pl9V9g1gSWtr4iV+JfbqZlVnCG1mLIHXQrhBADB5E3U4brJEJCIIZOpNS1jcgNuW5MRzifZFR0Qreg90C1ST8SKhxm
+    properties :
+     x : 837
+     y : 2
+     width : 20
+     height : 20
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACmoVLMw6IVaNN+EzbCZ6RfCxh5pVzFPCZhG88znScG1z/Y/PkdJeeP3irLcbXCN5RHeNd369Fx6IvEJqGLFE9HzBcOG+6ib4SBPfY0gUSlaVKJGNF5IaHvg1Ejosjz6t2GLW9jk83MVZZ/lw==
+        code : |1-
+         // Repositions on the default plane
+         MySelf..Plane = 0
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : STC_WhereAreTheControls
+    identifier : 0x286e681e0c222b71
+    internal_properties : CAAAAAgAAAB5TY+KP1lNcOiDGNh90LVlbRTNzAMH/erkhSlmMxArffnNDtF7WQIkltpLx5bThBYJGkUR2DU6TJgSUz4AuPrtBzaUf1Wm2ikLqS7D/5WrzCv+oHhSeU9h7G2x8ZGkAreMouFsUB1lOdQl6qfUvshgkO6I9HV+DUpsMN6xE75Jn/qpP6bs86wIESNbCVHl/xDTuYV2mENyKV+PqzSQhK/c9XbGyTdHznj/Fmy5kjNtkdYQBCt4wE5AUXDRVusdVC3tOXLzzknenc8zfbWxVoaZH0NLhokOZDSsEXEEVWuBSpRgX4MAgZZpqs6nCOAnzCQHo5ll2stLkmheV7+KCbGCFrE1ZGXfniV7cNTKT2zBj2k/PVN1/lAqacCD9fMtKQRnT8pn7Ix4+jRlVI5xYzTUX/MUAdBp2L+RSa/P2o2b1W5fd/2py2ZaKLSQj1+N1EI6hegU5XKtV3qswZ0xw0DFtKcdB84KiFQDXgiaaYsl9YbwIqKyupM399hGPGNktU52MJtNEG98/8KWPmZ7u1zYr3D6FvYSFn0ZVNj3Ts002jPBksKGgbZA8fEY2HSWt4ofxQGrWEK6nmFeSA8LPWjnrxv/eehVWOinVkHpMYBXH8pywPQh3l3VDL6Qv3sAZ01nbnEVLR/8umLUPk+zermIfkNcyBofFo21kQ==
+    properties :
+     x : 6
+     y : 6
+     width : 772
+     height : 30
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAC8VVH8P4h8eU8W1RopWIqfFLo3Qbfcl+SadB6/sUT2id4EUUZuznjrZ7ExZ2aArpvZUlizMLNY9qjNF9sn/jiTBhyE5b2945tmJoVnpDWiwQfDkbIBHfnWtA5tVhAhOiWdXrrO0V2PrGQCIjV5fZEUyZq7uG+YgiIjuyK6m5PW0hec8abL9VKT2JcngjkVK2n4
+     code : |1+
+      
+      EXTERN "WINCONST.WL"
+      
+      EElementType is enumeration
+      	eltUnknown			// Unknown type of element
+      	eltPane			// Pane
+      	eltGroup		// Grouping
+      	eltControl			// Control
+      END
+      
+      // Structure that contains the information regarding the different elements (controls, groups, panes) of the ribbon
+      STRibbonElement is Structure
+      	sFullControlName 		is string						// Full name of the element (group/control= or pane number
+      	sRibbonAccessPath 		is string						// Access path to the ribbon (pre-formatted text)
+      	sCaption 				is string						// Caption of the element
+      	sToolTip 				is string						// Tooltip of the element
+      	sSoughtText 		is string						// Text used for the search (corresponds to the concatenation of the caption and tooltip)
+      	nPaneSubscript 			is int						// Subscript of the control/group pane
+      	sParentGroup		is string						// Full name of the group
+      	eType					is EElementType					// Type of the element (pane, group or control)
+      END
+      
+      // Variables of the window template
+      gsImageInitialPane			is string						// Image initially used for the ribbon panes
+      gsNameRibbonControl				is string						// Name of the ribbon control used (this variable must be initialized in the window that is using the template)
+      garrRibbonElements 			is array of STRibbonElement	// Array that contains all the ribbon elements
+      garrRibbonElementsSearch 		is array of STRibbonElement	// Array that contains the filtered elements
+   -
+     code : |1-
+      // Loads the ribbon controls in a storage array
+      IF _RibbonSearch_Initialize() THEN
+      	
+      	// Hides the search controls
+      	RibbonSearch_Display(False)
+      	
+      	// Captures the left click on the window and window controls
+      	Event(_RibbonSearch_LeftClickWindow, ".*", 					WM_LBUTTONDOWN)
+      	Event(_RibbonSearch_LeftClickWindow, MyWindow..FullName, WM_LBUTTONDOWN)
+      	
+      END
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : _RibbonSearch_DefinePaneImage
+     internal_properties : CAAAAAgAAAAcwz07LCCgVA5ucVH78eEn1NoVbYZDV/uF6/FonUbL3/cO44Bm8Zvltt+OEmpq09Quho9tV1YuMpZOuDOveiGIDQpzWpnttCDdqclKS1f7my0d5C4q2ZoeTT8KnyvXT526lBx0lUAAaMWbBjoGxxHRTbVMaRosp4/OiPLvDdSZfg3o8c8AekJZKrEPIB/L2QDNWVJbStA28k43XfFXFV8=
+     procedure_id : 1760458982415739761
+     type_code : 14
+     code : |1+
+      // Summary: Creates a pane image from the initial image by applying a color
+      // Syntax:
+      //[ <Result> = ] _RibbonSearch_DefinePaneImage (<nColor> is int)
+      //
+      // Parameters:
+      //	nColor (integer): Color to apply
+      // Return value:
+      // 	ANSI string: Path of result image file
+      //// Automatic process of errors: RESULT Empty string "
+      //
+      
+      PROCEDURE PRIVATE _RibbonSearch_DefinePaneImage(LOCAL nColor is int) : string
+      
+      // Defines the temporary image file
+      sTemporaryImage is string = fTempFile+".png"
+      
+      // Applies the color to the background of the final image
+      IMG_ImageFinalPane..BackgroundColor = nColor
+      
+      // Copies the image of the pane into the image control
+      dCopyBlt(IMG_PaneImage, IMG_ImageFinalPane, copySrcAnd)
+      
+      // Stores the drawing in a temporary file
+      dSaveImagePNG(IMG_ImageFinalPane, sTemporaryImage)
+      
+      // End of drawing
+      dEndDrawing(IMG_ImageFinalPane)
+      
+      
+      // Path of result file
+      RESULT sTemporaryImage
+     type : 458752
+   -
+     name : RibbonSearch_Display
+     internal_properties : CAAAAAgAAACO0YJO/DBdll2Gbdld8/ULoYk2WSJGl5dLaNpYAk627ju0DkmbL5l+w4tZk10IVFLkokMfmK+o9/Aj/hIGN9N9gsaIRiZzMGtbM8G0Ll76rnW3KnLTb309bZ8LRCdtT2plji2OvG5QOqpXJxjLrJjdCRKWji0m8gTXKZm/oBe7HZie
+     procedure_id : 1760458982415805297
+     type_code : 14
+     group : 4
+     code : |1+
+      // Summary: Displays or hides the controls linked to the search in the ribbon
+      // Syntax:
+      //RibbonSearch_Display ([<bDisplay> is boolean])
+      //
+      // Parameters:
+      //	bDisplay (boolean): True to display the elements, False to hide them. If the parameter is not specified, the current visibility is reversed
+      // Return value:
+      // 	None
+      //
+      PROCEDURE RibbonSearch_Display(LOCAL bDisplay is boolean = NOT GR_RibbonSearch..Visible)
+      
+      
+      // If the controls must be displayed
+      IF bDisplay THEN
+      	
+      	// Displays the search controls (background image, edit, looper, ...)
+      	GR_RibbonSearch..Visible = True
+      	
+      	// Runs the search (by default, the edit control stores the last value entered)
+      	ExecuteProcess(EDT_FindRibbonCommand, trtChange)
+      	
+      	// Resume the input
+      	ReturnToCapture(EDT_FindRibbonCommand)
+      	
+      	
+      ELSE // If the controls must be hidden
+      	
+      	// Hides the search controls (background image, edit, looper, ...)
+      	GR_RibbonSearch..Visible 			= False
+      	
+      	// Hides the image and the superposition shape
+      	IMG_Highlight_Background..Visible 	= False
+      	SHA_Highlight_Border..Visible 	= False
+      	
+      	// Re-applies the initial pane image 
+      	IF ControlExist(gsNameRibbonControl) THEN
+      		{gsNameRibbonControl, indControl}..Image	= gsImageInitialPane
+      	END
+      	
+      END
+     type : 458752
+   -
+     name : _RibbonSearch_LeftClickWindow
+     procedure_id : 1760458982415870833
+     type_code : 14
+     code : |1-
+      // Summary: Procedure called during a left click on the window
+      // Syntax:
+      //_RibbonSearch_LeftClickWindow ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE _RibbonSearch_LeftClickWindow()
+      
+      // If the search group is visible
+      IF GR_RibbonSearch..Visible THEN
+      	
+      	// If the click was performed outside the area dedicated to the search in the ribbon
+      	IF MouseYPos(mpWindow) < IMG_BackgroundSearch..Y _OR_ MouseYPos(mpWindow) > IMG_BackgroundSearch..Y+IMG_BackgroundSearch..Height THEN
+      		
+      		// Hides the elements of the search (the application is going back to normal use)
+      		RibbonSearch_Display(False)
+      		
+      	END
+      	
+      END
+     type : 458752
+   -
+     name : _RibbonSearch_HighlightControl
+     internal_properties : CAAAAAgAAABow7TPBEb1gRhYB+Em1DvOCTbOKiZhXcbaLNQRQep6e4wJq8rp9CCZUipGmI7oaV4aolajJlg1k5Ie3bYsLkRhubronEjo755wCCL7AwgnTH1yUjQUCdblo8Ary0arC7KiYfJSu9ygS1/aVRb/H2JP2K60tVPEz3R/NAN/5DT0aUmbQ7HC/WTRv6wONosPSl3vB+WYiwA=
+     procedure_id : 1760458982415936369
+     type_code : 14
+     code : |1-
+      // Summary: Highlights the control, group or pane of the selected search result
+      // Syntax:
+      //_RibbonSearch_HighlightControl (<stAnElement> is STRibbonElement)
+      //
+      // Parameters:
+      //	stAnElement (STRibbonElement): Structure containing the information of the control to highlight
+      
+      // Return value:
+      PROCEDURE PRIVATE _RibbonSearch_HighlightControl(stAnElement is STRibbonElement)
+      
+      // The Ribbon control must exist
+      IF ControlExist(gsNameRibbonControl) = False THEN RETURN
+      
+      // Positions the ribbon on the pane
+      {gsNameRibbonControl, indControl} = stAnElement.nPaneSubscript
+      
+      // Hides the controls that are used to highlight the controls and groups
+      IMG_Highlight_Background..Visible 	= False
+      SHA_Highlight_Border..Visible 	= False
+      
+      // If the result to highlight is a group or a control
+      IF stAnElement.eType IN (eltControl, eltGroup) THEN
+      	
+      	// Overlays the highlighting image
+      	IMG_Highlight_Background..Width 	= {stAnElement.sFullControlName, indControl}..Width
+      	IMG_Highlight_Background..Height 	= {stAnElement.sFullControlName, indControl}..Height
+      	IMG_Highlight_Background..X 			= {stAnElement.sFullControlName, indControl}..X
+      	IMG_Highlight_Background..Y 			= {stAnElement.sFullControlName, indControl}..Y
+      	
+      	// Frames the control or group
+      	SHA_Highlight_Border..Width 	= {stAnElement.sFullControlName, indControl}..Width+2
+      	SHA_Highlight_Border..Height 	= {stAnElement.sFullControlName, indControl}..Height+2
+      	SHA_Highlight_Border..X 		= {stAnElement.sFullControlName, indControl}..X-1
+      	SHA_Highlight_Border..Y 		= {stAnElement.sFullControlName, indControl}..Y-1
+      	
+      	// Displays the controls that are used for the highlight (the image for the background and the shape for the border) 
+      	IMG_Highlight_Background..Visible 	= True
+      	SHA_Highlight_Border..Visible 	= True
+      	
+      END
+      
+      // Switches the image, the border and the background from yellow to red...
+      FOR i = 0 _TO_ IMG_GradientRibbonSearch..Width-1
+      	{gsNameRibbonControl, indControl}..Image 		= _RibbonSearch_DefinePaneImage(dPixelColor(IMG_GradientRibbonSearch, i, 5))
+      	IMG_Highlight_Background..BackgroundColor	= dPixelColor(IMG_GradientRibbonSearch, i, 5)
+      	SHA_Highlight_Border..Color		= dPixelColor(IMG_GradientRibbonSearch, i, 5)
+      	Wait(0, waitMouseAndKeyboard)
+      END
+      
+      // ... then from red to yellow
+      FOR i = IMG_GradientRibbonSearch..Width-1 _TO_ 0 STEP -1
+      	{gsNameRibbonControl, indControl}..Image 		= _RibbonSearch_DefinePaneImage(dPixelColor(IMG_GradientRibbonSearch, i, 5))
+      	IMG_Highlight_Background..BackgroundColor	= dPixelColor(IMG_GradientRibbonSearch, i, 5)
+      	SHA_Highlight_Border..Color		= dPixelColor(IMG_GradientRibbonSearch, i, 5)
+      	Wait(0, waitMouseAndKeyboard)
+      END
+      
+      // Forces a refresh 
+      IF GR_RibbonSearch..Visible = False THEN
+      	
+      	// Hides the image and the superposition shape
+      	IMG_Highlight_Background..Visible 	= False
+      	SHA_Highlight_Border..Visible 	= False
+      	
+      	// Re-applies the initial pane image 
+      	{gsNameRibbonControl, indControl}..Image 	= gsImageInitialPane
+      	
+      END
+     type : 458752
+   -
+     name : _RibbonSearch_HighlightText
+     internal_properties : CAAAAAgAAAB/avsxRcaqSwKugTRVsznrP+b18z7B9ckLCkhGVJ80z2I4nEfEDJVF7a9OpkfbdCwZHaFY3tdMzzwfyN8TlSH+uS4ha58tRE6V+SoYxIC1hkdtxbW0IuuIEZo5r+PxuzHvSZk0S1dughhDkBxl7WINBYUTO35XeA2j2iKrHB/bExCAqlO1IEq2kIupNg==
+     procedure_id : 1760458982416001905
+     type_code : 14
+     code : |1-
+      // Summary: Formats a text to highlight a set of characters
+      // Syntax:
+      //[ <Result> = ] _RibbonSearch_HighlightText (<sInitialText> is string, <sSoughtTerm> is string, <sReferenceControl> is string)
+      //
+      // Parameters:
+      //	sInitialText (ANSI string): Initial text
+      //	sSoughtTerm (ANSI string): Sought term that must be highlighted in the initial text
+      //	sReferenceControl (ANSI string): Reference control to retrieve the initial font
+      // Return value:
+      // 	ANSI string: Formatted text
+      //// Automatic process of errors: RESULT Empty string "
+      //
+      
+      PROCEDURE PRIVATE _RibbonSearch_HighlightText(LOCAL sInitialText is string, LOCAL sSearchTerm is string, LOCAL sReferenceControl is string)
+      
+      sFinalText	is string
+      nStartPos		is int
+      
+      
+      // Stores the initial text
+      sFinalText = sInitialText
+      
+      // Finds each occurrence of the term
+      nStartPos = Position(sFinalText, sSearchTerm, 1, IgnoreCase)
+      IF nStartPos > 0
+      	
+      	// Formats this text section
+      	sFinalText = RTFSelection(sFinalText, rtfBackgroundColor, LightYellow, nStartPos, Length(sSearchTerm))
+      	
+      END
+      
+      // Applies the font (name and size) of the reference control
+      sFinalText = RTFSelection(sFinalText, rtfFontName, 		{sReferenceControl, indControl}..FontName, 	1, Length(sFinalText))
+      sFinalText = RTFSelection(sFinalText, rtfFontSize, 	{sReferenceControl, indControl}..FontSize, 	1, Length(sFinalText))
+      
+      
+      // Formatted text
+      RESULT sFinalText
+     type : 458752
+   -
+     name : _RibbonSearch_DisplayResult
+     internal_properties : CAAAAAgAAABy46gTKSehXuc4QaR5sSVWSfrpsG4/T3G3hnZgRygEv9blNUxQPhxUutEqnngPg+InuObEhNaBeTcaEtNZly7VmaNGxCmofYem6/UUev90zpNmjMqxvOFIdZK4P9HeH3cMTMG3rSqWack/MZ8fu+7g/ClKqx/Gs2+spPtRgPiEM0muJeTBq1EfEs5hLdq5VHQYaViAfRaF36/Fe/xGqcNivHffVRRfFF1BOtIaMdF02iz8YIk+pMjOLQ+fVV9IxqpHVavTcW6p
+     procedure_id : 1760458982416067441
+     type_code : 14
+     code : |1+
+      // Summary: Displays the results of a search 
+      // Syntax:
+      //_RibbonSearch_DisplayResult ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //// Automatic procedure:
+      // The procedure is run manually during a call in the code, with a delay set to 1 hundredths of a second
+      // 
+      
+      PROCEDURE _RibbonSearch_DisplayResult()
+      
+      sFormattedCaption 	is string
+      sFormattedTooltip 		is string
+      
+      
+      // Deletes all the controls of the previous search
+      DeleteAll(garrRibbonElementsSearch)
+      
+      // Clears the looper
+      LooperDeleteAll(LOOP_ResultSearch)
+      
+      // For each ribbon control
+      FOR ALL ELEMENT stAControl of garrRibbonElements
+      	
+      	// If the term of the search is found for this control
+      	IF Position(stAControl.sSoughtText, EDT_FindRibbonCommand, 1, IgnoreCase) > 0 THEN
+      		
+      		// Only the visible elements must be taken into account
+      		IF _RibbonSearch_ElementIsVisible(stAControl) THEN
+      			
+      			// Stores this control as search result
+      			Add(garrRibbonElementsSearch, stAControl)
+      			
+      			// Formats the caption (to highlight the sought term)
+      			sFormattedCaption = _RibbonSearch_HighlightText(stAControl.sCaption, EDT_FindRibbonCommand, STC_ControlCaption..FullName)
+      			
+      			// Formats the tooltip (to highlight the sought term)
+      			sFormattedTooltip = _RibbonSearch_HighlightText(stAControl.sToolTip, EDT_FindRibbonCommand, STC_ControlTooltip..FullName)
+      			
+      			// Adds a row into the looper
+      			LooperAddLine(LOOP_ResultSearch, sFormattedCaption, sFormattedTooltip, stAControl.sRibbonAccessPath)
+      			
+      		END
+      		
+      	END
+      	
+      END
+      
+      // Don't select anything by default
+      LooperSelectMinus(LOOP_ResultSearch)
+      
+      // Modifies the height according to the number of results
+      nNbRow is int 			= Min(LOOP_ResultSearch..Count, 5)
+      // The height of the Looper control corresponds to the height of a row + 1 (for the separation line) * the number of rows to display (up to 5)
+      LOOP_ResultSearch..Height 	= (LOOP_ResultSearch..LineHeight+1) * nNbRow
+      // The height of the Image control corresponds to its initial height + the height occupied by the additional looper rows
+      IMG_BackgroundSearch..Height 		= IMG_BackgroundSearch..InitialHeight + (LOOP_ResultSearch..LineHeight+1) * (nNbRow-1)
+     type : 458752
+   -
+     name : _RibbonSearch_Initialize
+     internal_properties : CAAAAAgAAACLxHSg4TUMcxkTBO1g8+CmCU2bz56OQ0XqaKvgscDPlBc+3rOvFdfY6jdmVDWHUv8Bf4Wlt7FhHUtZwRCp/gL1SSRrBvW5q++1UkAFYY9ES6TizaZscmSOeIAXHCQfZJeFO0f8y50eYlIoX23dYdZ/2OBzb96qpEaE8EKRx0chlXZpTsTwnTfiAiQgoZD/W+XcSd8475nqx4PDOlPVPFDOfw==
+     procedure_id : 1760458982416132977
+     type_code : 14
+     code : |1-
+      // Summary: Loads all the ribbon controls
+      // Syntax:
+      //[ <Result> = ] _RibbonSearch_Initialize ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the load is correct, False otherwise
+      //
+      // Automatic process of errors: RETURN FALSE
+      //
+      
+      procedure private _RibbonSearch_Initialize() : boolean
+      
+      stAnElement 			is STRibbonElement
+      sGroupName 		is string
+      sControlName				is string
+      sPaneCaption			is string
+      sGroupCaption	is string
+      sControlCaption			is string
+      
+      
+      // The name of the Ribbon control must be correct
+      if ControlExist(gsNameRibbonControl) = False then
+      	ErrorBuild("The name of the ribbon control (""%1"") is invalid." +CR+ "You must fill the gsNameRibbonControl variable of the window template", gsNameRibbonControl)
+      	result False
+      end
+      
+      // Clears the previous storage
+      DeleteAll(garrRibbonElements)
+      DeleteAll(garrRibbonElementsSearch)
+      
+      // Browses the ribbon panes
+      for nPaneSubscript = 1 _to_ {gsNameRibbonControl, indControl}..Count
+      	
+      	// Stores the caption of the pane (or the subscript of the pane if the caption is empty)
+      	sPaneCaption = ({gsNameRibbonControl, indControl}[nPaneSubscript]..Caption <> "" ? {gsNameRibbonControl, indControl}[nPaneSubscript]..Caption else nPaneSubscript)
+      	
+      	// Stores the pane as a ribbon control
+      	VariableReset(stAnElement)
+      	stAnElement.sFullControlName 	= nPaneSubscript
+      	stAnElement.sCaption 			= sPaneCaption
+      	stAnElement.sToolTip 			= {gsNameRibbonControl, indControl}[nPaneSubscript]..ToolTip
+      	stAnElement.sSoughtText 	= stAnElement.sCaption +" "+ stAnElement.sToolTip
+      	stAnElement.sRibbonAccessPath 	= StringBuild("Ribbon >>> ""%1"" pane", sPaneCaption)
+      	stAnElement.nPaneSubscript 		= nPaneSubscript
+      	stAnElement.eType				= eltPane
+      	Add(garrRibbonElements, stAnElement)
+      	
+      	// Browses the pane groups
+      	sGroupName = EnumSubElement(gsNameRibbonControl+"."+nPaneSubscript, enumFirst)
+      	while sGroupName <> ""
+      		
+      		// Is it a group ?
+      		if {sGroupName, indControl}..Type <> typRibbonGroup then continue
+      		
+      		// Stores the caption of the group (or the name of the group if the caption is empty)
+      		sGroupCaption = ({sGroupName, indControl}..Caption <> "" ? {sGroupName, indControl}..Caption else {sGroupName, indControl}..Name)
+      		
+      		// Stores the group as a ribbon control
+      		VariableReset(stAnElement)
+      		stAnElement.sFullControlName 	= {sGroupName, indControl}..FullName
+      		stAnElement.sCaption 			= sGroupCaption
+      		stAnElement.sToolTip 			= {sGroupName, indControl}..ToolTip
+      		stAnElement.sSoughtText 	= stAnElement.sCaption +" "+ stAnElement.sToolTip
+      		stAnElement.sRibbonAccessPath 	= StringBuild("Ribbon >>> ""%1"" pane >>> ""%2"" group", sPaneCaption, sGroupCaption)
+      		stAnElement.nPaneSubscript 		= nPaneSubscript
+      		stAnElement.eType				= eltGroup
+      		Add(garrRibbonElements, stAnElement)
+      		
+      		// Browses the group controls
+      		sControlName = EnumSubElement(gsNameRibbonControl+"."+nPaneSubscript+"."+sGroupName, enumFirst)
+      		while sControlName <> ""
+      			
+      			// Stores the caption of the control (or the name of the control if the caption is empty)
+      			sControlCaption = ({sControlName, indControl}..Caption <> "" ? {sControlName, indControl}..Caption else {sControlName, indControl}..Name)
+      			
+      			// Stores the control
+      			VariableReset(stAnElement)
+      			stAnElement.sFullControlName 	= {sControlName, indControl}..FullName
+      			stAnElement.sCaption 			= {sControlName, indControl}..Caption
+      			stAnElement.sToolTip 			= {sControlName, indControl}..ToolTip
+      			stAnElement.sSoughtText 	= stAnElement.sCaption +" "+ stAnElement.sToolTip
+      			stAnElement.sRibbonAccessPath 	= StringBuild("Ribbon >>> ""%1"" pane >>> ""%2"" group >> ""%3"" control", sPaneCaption, sGroupCaption, sControlCaption)
+      			stAnElement.eType				= eltControl
+      			stAnElement.nPaneSubscript 		= nPaneSubscript
+      			stAnElement.sParentGroup	= {sGroupName, indControl}..FullName
+      			Add(garrRibbonElements, stAnElement)
+      			
+      			// Next control
+      			sControlName = EnumSubElement(gsNameRibbonControl+"."+nPaneSubscript+"."+sGroupName)	
+      			
+      		end
+      		
+      		CONTINUE:
+      		// Next group
+      		sGroupName = EnumSubElement(gsNameRibbonControl+"."+nPaneSubscript)	
+      		
+      	end
+      	
+      end
+      
+      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      // Deletes the CR characters from the captions used in the looper (replaced by a space)
+      FOR ALL ELEMENT stAnElement of garrRibbonElements
+      	stAnElement.sToolTip 		= StringFormat(Replace(stAnElement.sToolTip, CR, " "), 			ccIgnoreSpace)
+      	stAnElement.sCaption 			= StringFormat(Replace(stAnElement.sCaption, CR, " "), 			ccIgnoreSpace)
+      	stAnElement.sRibbonAccessPath = StringFormat(Replace(stAnElement.sRibbonAccessPath, CR, " "), 	ccIgnoreSpace)
+      end
+      
+      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      // Positions the search controls in height according to the ribbon 
+      IMG_BackgroundSearch..Y 			= {gsNameRibbonControl, indControl}..Y + {gsNameRibbonControl, indControl}..Height
+      EDT_FindRibbonCommand..Y 	= IMG_BackgroundSearch..Y + 2
+      BTN_CloseRibbonSearch..Y 		= IMG_BackgroundSearch..Y + 2
+      LOOP_ResultSearch..Y 		= IMG_BackgroundSearch..Y + 27
+      
+      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      // Stores the image of the ribbon (file path)
+      gsImageInitialPane 			= {gsNameRibbonControl, indControl}..Image
+      // Loads in an Image variable
+      MyImage is an Image 			= gsImageInitialPane
+      // Displays the initial image in a control
+      IMG_PaneImage 					= gsImageInitialPane
+      // Positions the dimensions of the temporary controls
+      // (these controls will be used to create pane images according to specific colors to highlight the pane during the search)
+      IMG_PaneImage..Width 		= Max(1, MyImage ..Width)
+      IMG_PaneImage..Height 		= Max(1, MyImage ..Height)
+      IMG_ImageFinalPane..Width 	= Max(1, MyImage..Width)
+      IMG_ImageFinalPane..Height 	= Max(1, MyImage..Height)
+      
+      
+      // Load performed
+      result True
+     type : 458752
+   -
+     name : _RibbonSearch_ElementIsVisible
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 1760458982416198513
+     type_code : 14
+     code : |1+
+      // Summary: Defines whether an element is visible or not
+      // Syntax:
+      //[ <Result> = ] _RibbonSearch_ElementIsVisible (<stAnElement> is STRibbonElement)
+      //
+      // Parameters:
+      //	stAnElement (STRibbonElement): Full name of the element
+      // Return value:
+      // 	boolean: True if the element is visible, False otherwise
+      //// Automatic process of errors: RETURN FALSE
+      //
+      
+      PROCEDURE PRIVATE _RibbonSearch_ElementIsVisible(LOCAL stAnElement is STRibbonElement) : boolean
+      
+      // The pane must be visible regardless of the element type
+      IF {gsNameRibbonControl, indControl}[stAnElement.nPaneSubscript]..Visible = False THEN RESULT False
+      
+      WHEN EXCEPTION IN
+      	
+      	// According to the type of the element
+      	SWITCH stAnElement.eType
+      		// Pane
+      		CASE eltPane
+      			// The case of the invisible pane is processed on the first code line
+      			RESULT True
+      			
+      		// Grouping
+      		CASE eltGroup			
+      			// Returns	the visibility of the group 
+      			RESULT {stAnElement.sFullControlName, indControl}..Visible
+      			
+      		// Control
+      		CASE eltControl
+      			// The group must be visible
+      			IF {stAnElement.sParentGroup, indControl}..Visible = False THEN RESULT False
+      			
+      			// Returns	the visibility of the control 
+      			RESULT {stAnElement.sFullControlName, indControl}..Visible
+      			
+      		// Unknown
+      		OTHER CASE
+      			dbgAssert(False, "Unknown type of element")
+      			
+      	END
+      	
+      	// If nothing is found, returns False
+      	RESULT False
+      	
+      DO
+      	RESULT False
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x119b7ca3006d0074
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
